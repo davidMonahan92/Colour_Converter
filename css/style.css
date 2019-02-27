@@ -1,0 +1,49 @@
+body,html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url('../img/background-image.jpeg'); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Nunito";
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+input {
+	width: 50%;
+	text-align: center;
+	height: 30px;
+	font-size: 30px;
+	font-family: inherit;
+}
+
+button {
+	width: 150px;
+	height: 50px;
+	background-color: purple;
+	color: white;
+	font-size: 30px;
+	font-family: inherit;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#copyButton {
+	width: 100px;
+	height: 50px;
+	display: block;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	font-family: inherit;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+

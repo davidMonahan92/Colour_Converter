@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Colour Converter</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container d-flex h-100">
+		<div class="row align-self-center w-100">
+			<div class="col-md-6 col-sm-12">
+				<div class="jumbotron text-center">
+					<h1 class="display-4" >RGB to Hex Colour Converter</h1>
+					<input type="text" id="rgbConveter" placeholder="Enter RGB Code..."><br>
+					<button onclick="rgbConverter()">Convert to Hex</button><br>
+					<input type="text" id="hexOutput"><br>
+					<button id="copyButton" onclick="copyHEXColour()">Copy</button>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 ">
+				<div class="jumbotron text-center">
+					<h1 class="display-4">Hex to RGB Colour Converter</h1>
+					<input type="text" id="hexConveter" placeholder="Enter Hex Code..."><br>
+					<button onclick="hexConverter()">Convert to RGB</button><br>
+					<input type="text" id="rgbOutput"><br>
+					<button id="copyButton" onclick="copyRGBColour()">Copy</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/main.js"></script>
+
+</body>
+</html>
